@@ -1,0 +1,102 @@
+*{
+    margin: 0px;
+    padding: 0%;
+}
+
+nav{
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    flex-wrap: wrap;
+   
+}
+
+nav .navigation ul{
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+nav .navigation ul li{
+    list-style: none;
+    padding: 10px 20px;
+}
+#hero{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(520px,1fr));
+    height: 100vh;
+    width: 90%;
+    margin: auto;
+    
+    
+}
+ .hero-left-dots li{
+    font-size: 1.5rem;
+}
+.hero-left{
+    padding-top: 20px;
+    display: flex;
+    align-items: center;
+   
+}
+
+.hero-left-content h1{
+    font-size: 5.2rem;
+    
+}
+.hero-left-content p{
+    font-size: 1.5rem;
+    padding: 0 0 10px 0;
+}
+.hero-right img{
+    height: 660px;
+    width: 760px;
+    text-align: center;
+} 
+.hero-left-content button{
+   margin-top: 20px;
+}
+.button-hero-left{
+    height: 60px;
+    width: 160px;
+    color: white;
+    background: #466D50;
+    border: none;
+    font-size: 1.5rem;
+    border-radius: 10px;
+}
+.discover{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 20px;
+    gap: 30px;
+}
+.discover img{
+    height: 50px;
+}
+.discover h5{
+    font-size: 0.9rem;
+    padding: 10px 0;
+}
+.discover p{
+    font-size: 1rem;
+}
+/* @media only screen and (min-width: 600px)and (max-width:1000px){
+    .hero-left-content h1{
+        font-size: 1.5rem;
+        
+    }
+    .hero-left-content p{
+        font-size: 0.5rem;
+       
+}
+.hero-right img{
+    height: 400px;
+    width: 420px;
+    text-align: center;
+} 
+.hero-left{
+    align-items:flex-start ;
+    padding-top: 100px ;
+}
+} */
